@@ -1,15 +1,14 @@
 # Learning JS
-Conceitos da linguagem de programação Java Script.
+Programming language concepts java Script.
 
-- Variáveis
+- Variables
 
-- Funções
+- Functions
 
-- Condicionais
+- Conditionals
 
-- Estruturas de repetição
+- Repeating structures
 
-- Manipulação de DOM
+- DOM manipulation
 
-- Requisições assíncronas
-
+- Asynchronous requests
