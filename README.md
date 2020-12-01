@@ -1,2 +1,2 @@
-# learning_js
+# Learning JS
 Conceitos da linguagem de programação Java Script
