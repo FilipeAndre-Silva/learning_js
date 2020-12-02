@@ -1,5 +1,5 @@
 # Learning JS
-Programming language concepts java Script.
+Programming language concepts JavaScript.
 
 - Variables
 
