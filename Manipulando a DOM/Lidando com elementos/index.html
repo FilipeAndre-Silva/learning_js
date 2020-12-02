@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+<body>
+    <div id="app">
+        <input id="nome" />
+    </div>
+    <script>
+        var linkElement = document.createElement("a");
+        linkElement.setAttribute('href', 'https://www.duolingo.com/learn');
+        linkElement.setAttribute('title', 'Site com JS');
+
+        var textElement = document.createTextNode('Acessar Duoling');
+        linkElement.appendChild(textElement);
+
+        var containerElement = document.getElementById("app");
+        containerElement.appendChild(linkElement);
+
+        var inputElement = document.querySelector("#nome");
+        containerElement.removeChild(inputElement);
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+<body>
+    <div id='app'>
+        <input type="text" class="nome" name="nome" id="nome" />
+        <button class="botao">Adicionar</button>
+    </div>
+
+    <script>
+        var inputElement = document.getElementById("nome");
+        console.log(inputElement);
+
+        var inputElement2 = document.getElementsByTagName("input")[0];
+        console.log(inputElement2);
+
+        var inputElement3 = document.getElementsByClassName("nome")[0];
+        console.log(inputElement3);
+
+        var inputElement4 = document.querySelector("body div#app input");
+        console.log(inputElement4);
+
+        var inputElement5 = document.querySelector("input[name=nome]");
+        console.log(inputElement5);
+
+        var btnElement = document.querySelector("button.botao");
+        btnElement.onclick = function(){
+            var text = inputElement5.value;
+            alert(text);
+        }
+    </script>
+</body>
+</html>

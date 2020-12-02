@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+<body>
+
+    <script>
+        function retornaSexo(sexo){
+            //M ou F
+            //Masculino ou Feminino
+            // === Compara valores e tipos
+            if (sexo === 'M'){
+                return 'Masculino';
+            }else if(sexo === 'F'){
+                return 'Feminino'
+            }else{
+                return 'Outro';
+            }
+        }
+
+        var sexo = retornaSexo('M');
+        console.log(sexo);
+
+        function retornaSexo2(sexo){
+            switch(sexo){
+                case 'M':
+                    return 'Masculino';
+                case 'F':
+                    return 'Feminino';
+                default:
+                    return 'Outro'
+            }
+        }
+
+        var sexo2 = retornaSexo2('F');
+        console.log(sexo2);
+    </script>
+</body>
+</html>

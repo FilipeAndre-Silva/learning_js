@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+<body>
+
+    <script>
+        //AND, OR, NOT
+
+        var sexo = 'M';
+        var idade = 23;
+
+        if(sexo === 'M' && idade >= 18){
+            console.log('E');
+        }else if(sexo === 'M' || idade >= 18){
+            console.log('OU');
+        }else if(sexo !== 'X'){
+            console.log('Não');
+        }
+
+
+        var marsculino;
+        if(sexo === 'M'){
+            marsculino = true;
+        }else{
+            marsculino = false;
+        }
+        console.log(marsculino);
+        //OU
+        
+        var masculino2 = (sexo === 'M');
+        console.log(masculino2);
+    </script>
+</body>
+</html>
